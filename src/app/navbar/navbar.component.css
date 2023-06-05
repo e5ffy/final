@@ -1,0 +1,287 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:Poppins;
+  src:url(/assets/fonts/Poppins-ExtraLight.ttf);
+}
+  
+.navbar{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    justify-content: space-around;
+    gap:54px;
+
+}
+.list{
+    display:flex;
+    list-style:none;
+    gap:54px;
+}.list a{
+    text-decoration: none;
+    width: 43px;
+height: 21px;
+font-size: 20px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+line-height: 21px;
+text-transform: capitalize;
+color: #FFFFFF;
+opacity: 0.7;
+flex: none;
+order: 0;
+flex-grow: 0;
+position:relative;
+top:25.29px;
+}
+
+.vector{
+    position: absolute;
+left: 6.47%;
+right: 9.31%;
+top: 9.45%;
+bottom: 6.45%;
+width:10px;
+height:10px;
+}
+.heading{
+    width: 100%;
+    height:1000px;
+    background-color: black;
+    text-align: center;
+    background-image: url(/src/assets/images/AdobeStock_251238249\ 1.png);
+    background-size: cover;
+    background-position: center;
+border-bottom-left-radius: 60px;
+border-bottom-right-radius: 60px;
+  
+}
+.dis{
+    width: 863px;
+height: 62px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 62px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin:auto;
+margin-top:190px;
+}
+.globe{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px;
+gap: 8px;
+width: 273px;
+height: 72px;
+background: #7B61FF;
+border-radius: 12px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin:auto;
+margin-top:56px;
+}
+.dis1{
+    width: 193px;
+height: 24px;
+font-family:Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.second{
+    width:800px;
+    height:88px;
+    background-color: #FFFFFF;
+    position:absolute;
+    left:350px;
+    top:612px;
+    bottom:41px;
+    border-radius:12px;
+    display:flex;
+    flex-direction: row;
+    padding:8px;
+}
+.class1{
+    width: 254.67px;
+height: 72px;
+display:flex;
+flex-direction:row;
+align-items:center;
+padding:16px;
+position:relative;
+}
+.class1 p{
+    width: 224px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+position:absolute;
+top:8px;
+bottom:40px;
+left:-15px;
+right:185px;
+color: #161414;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.class1 h3{
+    width: 224px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+font-weight: bold;
+color: #161414;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+position:absolute;
+top:32px;
+bottom:16px;
+left:-15px;
+right:20px;
+flex-grow: 0;
+text-align: center;
+}
+.long{
+    left:-15px;
+}
+.left img{
+    top:25.29px;
+    position:absolute;
+}
+.search{
+ position: absolute;
+ left: 720px;
+ top: 13px;
+bottom:6px;
+}
+ul a:hover{
+    opacity:0.5;
+}
+
+    .btnimg{
+        cursor: pointer;
+        left:-9px;
+        position:absolute;
+        top:1px;
+    }
+    *{
+        box-sizing: border-box;
+      }
+      body{
+        margin: 0px;
+        padding: 0px;
+        width: 100vw;
+        height: 100vh;
+   
+
+      }
+      .search-box{
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+      }
+   
+      
+      .search-box{
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+      }
+      .input-search{
+        height: 50px;
+        width: 50px;
+        border-style: none;
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        outline: none;
+        border-radius: 25px;
+        transition: all .5s ease-in-out;
+        background-color: #FFFFFF;
+        padding-right: 40px;
+        color:#3a0e98 ;
+        background-image:url(/src/assets/images/search-icon-png-8.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position:relative;
+        left:0;
+        top:8px;
+      }
+      .input-search::placeholder{
+        color:#3a0e98 ;
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 100;
+      }
+      .btn-search{
+        width: 50px;
+        height: 50px;
+        border-style: none;
+        font-size: 20px;
+        font-weight: bold;
+        outline: none;
+        cursor: pointer;
+        border-radius: 50%;
+        position: absolute;
+        right: 0px;
+        color:#980e88 ;
+        background-color:transparent;
+        pointer-events: painted;  
+      }
+      .btn-search:focus ~ .input-search{
+        width: 300px;
+        border-radius: 0px;
+        background-color: transparent;
+        border-bottom:1px solid #3a0e98 ;
+        transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+      }
+      .input-search:focus{
+        width: 300px;
+        border-radius: 0px;
+        background-color: transparent;
+        border-bottom:1px solid #3a0e98 ;
+        transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+      }
+      
+      
+      
+      
